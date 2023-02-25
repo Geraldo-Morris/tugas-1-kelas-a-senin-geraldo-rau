@@ -1,0 +1,339 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.fcontainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 15px;
+  width: 100%;
+  height: 80px;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.firstname {
+  color: #3252df;
+  font-weight: 700;
+}
+
+.lastname {
+  color: #152c5b;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation > li {
+  list-style-type: none;
+  padding: 35px;
+}
+
+.navigation > li > a {
+  color: #152c5b;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.image-container-1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.box {
+  width: 400px;
+  height: 40px;
+  border-radius: 50px;
+  border: 2px solid black;
+  position: relative;
+  display: block;
+  margin: -30px auto;
+  background-color: white;
+  box-shadow: -5px 10px 50px rgba(0, 0, 0, 1);
+}
+
+.line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  background-color: black;
+  transform: translateX(-50%);
+}
+
+.destinasi_explanation {
+  margin-top: 75px;
+  margin-left: 290px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.destinasi_card {
+  width: 260px;
+  height: 500px;
+  background-color: #0066fe;
+  display: flex;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #0066fe;
+  margin-left: 50px;
+  display: block;
+  margin: 30px auto;
+}
+
+.jarak_konten img {
+  margin-left: 11px;
+  margin-bottom: 15px;
+  width: 236px;
+  height: 269px;
+}
+
+.bintang img {
+  margin-top: 0px;
+}
+
+.bintang {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.card_position {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
+.detail {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 165px;
+  margin-top: 35px;
+}
+
+.rekomendasi_explanation {
+  margin-top: 75px;
+  margin-left: 280px;
+  margin-bottom: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.gambar_1 img {
+  width: 1300px;
+  height: 400px;
+  margin-right: 16%;
+}
+
+.gambar_1 {
+  margin-left: 50px;
+  position: relative;
+}
+
+.penjelasan_gambar {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  background-color: #0066fe;
+  background: linear-gradient(
+    268.58deg,
+    rgba(0, 0, 0, 0) 35.26%,
+    #0066fe 89.4%
+  );
+  bottom: 0px;
+  left: 225px;
+  font-size: 18px;
+  width: 80%;
+  margin-top: 10px;
+  margin-right: 50px;
+  border: transparent;
+  border-radius: 5px;
+  padding-left: 20px;
+  position: absolute;
+}
+
+.gambar_2 img {
+  width: 550px;
+  height: 350px;
+  margin-left: 210px;
+}
+
+.gambar_2 {
+  display: flex;
+  position: relative;
+
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 65px;
+}
+.gambar_3 img {
+  width: 550px;
+  height: 350px;
+}
+.gambar_3 {
+  margin-right: 300px;
+}
+.gambar_4 img {
+  margin-left: 10px;
+}
+
+.gambar_4 {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding-top: 50px;
+  margin-left: 270px;
+  margin-right: 270px;
+}
+.gambar_5 img {
+}
+.gambar_5 {
+  margin-left: 90px;
+}
+
+.gambar_6 {
+  margin-left: 90px;
+  position: relative;
+}
+
+.gambar_6 img {
+  margin-right: 800px;
+}
+.penjelasan_gambar_1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  background-color: #0066fe;
+  background: linear-gradient(268.58deg, rgba(0, 0, 0, 0) 50%, #0066fe 100%);
+  bottom: 1px;
+  margin-left: 211px;
+  font-size: 18px;
+  width: 500px;
+  margin-top: 10px;
+  margin-right: 50px;
+  border: transparent;
+  border-radius: 10px;
+  padding-left: 10px;
+  position: absolute;
+}
+
+.penjelasan_gambar_2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  background-color: #0066fe;
+  background: linear-gradient(268.58deg, rgba(0, 0, 0, 0) 40%, #0066fe 100%);
+  bottom: 0px;
+  margin-left: 10px;
+  font-size: 18px;
+  width: 398px;
+  margin-top: 10px;
+  margin-right: 53.5px;
+  border: transparent;
+  border-radius: 5px;
+  padding-left: 10px;
+  position: absolute;
+}
+.restoran_explanation {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 280px;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.resto_gambar_1 img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 150px;
+  margin-left: 20px;
+  padding-right: 50px;
+  margin-bottom: 10px;
+}
+.resto_gambar_1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  padding-bottom: 10px;
+  margin-left: 255px;
+  margin-right: 300px;
+  margin-bottom: 10px;
+}
+.penjelasan_gambar_3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  background-color: #0066fe;
+  bottom: 1px;
+  margin-left: 20px;
+  font-size: 18px;
+  width: 252px;
+  height: 160px;
+  margin-top: 10px;
+  margin-right: 53.5px;
+  border: transparent;
+  border-radius: 5px;
+  padding-left: 20px;
+  position: absolute;
+  margin-bottom: 10px;
+}
+
+.tombol_detail {
+  margin-left: 180px;
+  margin-top: 45px;
+  font-size: 18px;
+  border-radius: 5px;
+  border-color: #b5b5b5;
+}
+
+.posisi_header {
+  margin-top: 120px;
+  position: relative;
+}
+.row {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 30px;
+  margin-top: 420px;
+  margin-bottom: 20px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+.kolom {
+  margin-right: 130px;
+}
+
+.COPYRIGHT {
+  font-family: Arial, Helvetica, Â sans-serif;
+  margin-left: 700px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

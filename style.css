@@ -64,26 +64,56 @@ img {
   margin: 0 auto;
 }
 
-.box {
-  width: 400px;
-  height: 40px;
-  border-radius: 50px;
-  border: 2px solid black;
+.iklanSection {
+  text-align: center;
   position: relative;
-  display: block;
-  margin: -30px auto;
-  background-color: white;
-  box-shadow: -5px 10px 50px rgba(0, 0, 0, 1);
 }
 
-.line {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 1px;
-  background-color: black;
-  transform: translateX(-50%);
+.iklan {
+  width: 90%;
+}
+
+.info {
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  border-radius: 25%;
+}
+.button {
+  width: 20%;
+  background-color: #f7f7f7;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button p {
+  display: inline-block;
+  transform: translateY(-10%);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:nth-child(1) {
+  border-right: 1px solid #d0cccc;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.button:nth-child(2) {
+  border-left: 1px solid #d0cccc;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.buton:hover {
+  cursor: pointer;
+}
+
+.button img {
+  width: 30px;
 }
 
 .destinasi_explanation {
